@@ -128,7 +128,7 @@ int GetRowMin(int row, int col, int[,] matrix)
 // Печатаем результат. Номер строки матрицы, где наименьшая сумма элементов по строке
 void PrintRezult(int rowMinSum)
 {
-    Console.WriteLine("Founded row (the firts begins with one (1)) is: \n");
+    Console.WriteLine("Founded row (the first row begins with one (1)) is: \n");
     Console.Write("{0,8}  ", rowMinSum + 1);
     Console.WriteLine("\n");
 }
@@ -137,8 +137,8 @@ void main()
 {
     Console.WriteLine(" ------- Task-50 -------");
 
-    // Получить строку ввода целых чисел. Это строка вида: "N M P" задает размер матрицы и число, которое мы ищем в матрице
-    // Пример : " 5 4 17", матрица размером 5 на 4 и мы ищем число 17 в матрице
+    // Получить строку ввода целых чисел. Это строка вида: "N M" задает размер матрицы
+    // Пример : " 5 4 17", матрица размером 5 на 4
     string strDigits = InputIntegerDigitsAsString();
     Console.WriteLine($"\n You input digits: {strDigits}");
 
