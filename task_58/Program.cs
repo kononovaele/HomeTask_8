@@ -128,8 +128,8 @@ int GetRowMin(int row, int col, int[,] matrix)
 // Печатаем результат. Номер строки матрицы, где наименьшая сумма элементов по строке
 void PrintRezult(int rowMinSum)
 {
-    Console.WriteLine("Fouded row is: \n");
-    Console.Write("{0,8}  ", rowMinSum);
+    Console.WriteLine("Founded row (the firts begins with one (1)) is: \n");
+    Console.Write("{0,8}  ", rowMinSum + 1);
     Console.WriteLine("\n");
 }
 
